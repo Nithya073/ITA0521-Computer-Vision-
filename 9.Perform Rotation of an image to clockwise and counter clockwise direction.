@@ -1,0 +1,57 @@
+ 90 degree
+
+
+
+import cv2 
+path r"C:/Users/Welcome/OneDrive/Pictures/SavedPictures/cat.jpeg" 
+ src = cv2.imread(path) 
+ window_name = 'Image' 
+image = cv2.rotate(src, cv2.ROTATE_180) 
+ cv2.imshow(window_name, image) 
+cv2.waitKey(0) 
+
+
+
+
+180 degree
+
+
+
+
+
+import cv2 
+path = r"C:/Users/divya/OneDrive/Documents/COMPUTER VISION/Girl with a Cat.png" 
+src = cv2.imread(path) 
+ window_name = 'Image' 
+image = cv2.rotate(src, cv2.ROTATE_90_COUNTERCLOCKWISE) 
+ # Displaying the image 
+cv2.imshow(window_name, image) 
+cv2.waitKey(0) 
+
+
+
+
+
+ 270 degree
+
+
+
+
+
+
+
+ import cv2 
+path = r"C:/Users/Welcome/OneDrive/Pictures/Saved Pictures/cat.jpeg" 
+ src = cv2.imread(path) 
+ window_name = 'Image' 
+image = cv2.rotate(src, cv2.ROTATE_90_COUNTERCLOCKWISE) 
+cv2.imshow(window_name, image) 
+cv2.waitKey(0)
+
+
+
+
+
+
+
+
